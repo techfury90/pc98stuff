@@ -1,0 +1,52 @@
+●バッチファイルの内容
+
+inst.bat		ハードディスクへのインストール用バッチファイル
+mklib_m6.bat		super98.lib の作成用バッチファイル (MS-C & MASM 6.0)
+mklib_m5.bat		super98.lib の作成用バッチファイル (M-C & MASM 5.1)
+mklib_q6.bat		〃 (QuickC & MASM 6.0)
+mklib_q5.bat		〃 (QuickC & MASM 5.1)
+mklib_b.bat		〃 (Borland C++ & TASM)
+mklib_t.bat		〃 (Turbo C++ & TASM)
+mklib.res		super98.lib 用のレスポンスファイル
+mksmp_m.bat		サンプルのコンパイル用バッチファイル (MS-C)
+mksmp_q.bat		〃 (QuickC)
+mksmp_b.bat		〃 (Borland C++)
+mksmp_t.bat		〃 (Turbo C++)
+src\pic\mkpic_m5.bat	割り込み編サンプルの実行ファイル作成用バッチ (MASM 5.1)
+src\pic\mkpic_m6.bat	〃 (MASM 6.0)
+src\pic\mkpic_t.bat	〃 (TASM)
+
+
+●サンプルプログラムと使っている関数
+
+cputest.c	GetSysClk, CpuKind
+reset.c		CpuReset
+
+vram1.c		GetVram, PutVram
+vram2.c		PutStrVram, GetGdcCursor
+csrform.c	SetCursorForm
+loaducg.c	SetUcgBios, SetUcgIo
+jis2sjis.c	ToSjis, ToSjisFast
+sjis2jis.c	ToJis, ToJisFast
+
+gdemo.c		GraphicInit, PaletteInit, PaletteAll, SetPen, GdcCircle,
+		GdcLine, GdcBox, GdcScroll, KanjiGputc, GraphicBoxf, GraphicCls
+pal.c		PaletteInit, Palette
+
+keytype.c	GetKeyType
+keybeep.c	GetKeyBeepMode, KeyBeepOn,KeyBeepOff
+keytouch.c	KeyTouch
+capssw.c	CapsSwitch, GetKbType
+kanasw.c	KanaSwitch, GetKbType
+
+term.c		RsOpen, TransData, ReceiveLength, ReceiveData, RsClose
+rsset.c		SetErOn, SetErOff, SetRsOn, SetRsOff, SetSpeed
+rsstat.c	CheckEr, CheckRs, CheckCd, CheckCs, CheckCi, CheckDr, GetSpeed
+
+diskstat.c	DriveToDaua
+existrom.c	ExistExtRom
+msw.c		GetMemorySwitch,SetMemorySwitch
+existmif.c	ExistMouseIF
+prnstat.c	GetPrnStat
+onlinep.c	PrinterSelect
+existsb.c	ExistSoundBoard

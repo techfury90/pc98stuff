@@ -1,0 +1,25 @@
+super98.lib	&
++cpulib.obj	&
++curform.obj	&
++getcur.obj	&
++getvram.obj	&
++putvram.obj	&
++putstrv.obj	&
++setucgbi.obj	&
++setucgio.obj	&
++tojis.obj	&
++tojisfst.obj	&
++tosjis.obj	&
++tosjisfs.obj	&
++ginit.obj	&
++palette.obj	&
++gdc.obj	&
++gput.obj	&
++grcg.obj	&
++egc.obj	&
++kblib.obj	&
++getspeed.obj	&
++rslib.obj	&
++disklib.obj	&
++perilib.obj	&
+,super98.lst
