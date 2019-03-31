@@ -6,8 +6,8 @@
 #define GGDC_PAR 0xa0
 #define GGDC_CMD 0xa2
 
-#define 
-#define BP_SIZE 
+/* #define 
+#define BP_SIZE */
 
 /* 	Pointers to graphics VRAM bitplanes 0-3. 
 	You may notice that bitplane 3 is not contiguous with the first 2 
