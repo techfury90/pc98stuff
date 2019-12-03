@@ -1,23 +1,23 @@
-œƒoƒbƒ`ƒtƒ@ƒCƒ‹‚Ì“à—e
+â—ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ«ã®å†…å®¹ <<Batch files>>
 
-inst.bat		ƒn[ƒhƒfƒBƒXƒN‚Ö‚ÌƒCƒ“ƒXƒg[ƒ‹—pƒoƒbƒ`ƒtƒ@ƒCƒ‹
-mklib_m6.bat		super98.lib ‚Ìì¬—pƒoƒbƒ`ƒtƒ@ƒCƒ‹ (MS-C & MASM 6.0)
-mklib_m5.bat		super98.lib ‚Ìì¬—pƒoƒbƒ`ƒtƒ@ƒCƒ‹ (M-C & MASM 5.1)
-mklib_q6.bat		V (QuickC & MASM 6.0)
-mklib_q5.bat		V (QuickC & MASM 5.1)
-mklib_b.bat		V (Borland C++ & TASM)
-mklib_t.bat		V (Turbo C++ & TASM)
-mklib.res		super98.lib —p‚ÌƒŒƒXƒ|ƒ“ƒXƒtƒ@ƒCƒ‹
-mksmp_m.bat		ƒTƒ“ƒvƒ‹‚ÌƒRƒ“ƒpƒCƒ‹—pƒoƒbƒ`ƒtƒ@ƒCƒ‹ (MS-C)
-mksmp_q.bat		V (QuickC)
-mksmp_b.bat		V (Borland C++)
-mksmp_t.bat		V (Turbo C++)
-src\pic\mkpic_m5.bat	Š„‚è‚İ•ÒƒTƒ“ƒvƒ‹‚ÌÀsƒtƒ@ƒCƒ‹ì¬—pƒoƒbƒ` (MASM 5.1)
-src\pic\mkpic_m6.bat	V (MASM 6.0)
-src\pic\mkpic_t.bat	V (TASM)
+inst.bat		ãƒãƒ¼ãƒ‰ãƒ‡ã‚£ã‚¹ã‚¯ã¸ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç”¨ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ« <<Hard disk installer>>
+mklib_m6.bat		super98.lib ã®ä½œæˆç”¨ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ« (MS-C & MASM 6.0) <<Creation batch file>>
+mklib_m5.bat		super98.lib ã®ä½œæˆç”¨ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ« (M-C & MASM 5.1) <<Creation batch file>>
+mklib_q6.bat		ã€ƒ (QuickC & MASM 6.0)
+mklib_q5.bat		ã€ƒ (QuickC & MASM 5.1)
+mklib_b.bat		ã€ƒ (Borland C++ & TASM)
+mklib_t.bat		ã€ƒ (Turbo C++ & TASM)
+mklib.res		super98.lib ç”¨ã®ãƒ¬ã‚¹ãƒãƒ³ã‚¹ãƒ•ã‚¡ã‚¤ãƒ« <<Resources>>
+mksmp_m.bat		ã‚µãƒ³ãƒ—ãƒ«ã®ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ç”¨ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ« (MS-C) <<Sample compilation batch file>>
+mksmp_q.bat		ã€ƒ (QuickC)
+mksmp_b.bat		ã€ƒ (Borland C++)
+mksmp_t.bat		ã€ƒ (Turbo C++)
+src\pic\mkpic_m5.bat	å‰²ã‚Šè¾¼ã¿ç·¨ã‚µãƒ³ãƒ—ãƒ«ã®å®Ÿè¡Œãƒ•ã‚¡ã‚¤ãƒ«ä½œæˆç”¨ãƒãƒƒãƒ (MASM 5.1) <<Sample batch file for EXE creation>>
+src\pic\mkpic_m6.bat	ã€ƒ (MASM 6.0)
+src\pic\mkpic_t.bat	ã€ƒ (TASM)
 
 
-œƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Æg‚Á‚Ä‚¢‚éŠÖ”
+â—ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¨ä½¿ã£ã¦ã„ã‚‹é–¢æ•° <<Sample programs and functions used within>>
 
 cputest.c	GetSysClk, CpuKind
 reset.c		CpuReset
